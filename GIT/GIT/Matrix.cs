@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using System.Text;
 
 namespace GIT
@@ -29,6 +30,24 @@ namespace GIT
                 }
                 Console.WriteLine();
             }
+        }
+        public void SummMatrix(int[,] MatrixOne, int[,] MatrixTwo, bool _returnMatrix = false)
+        {
+            int[,] SummMatrix = new int[MatrixOne.GetLength(0), MatrixTwo.GetLength(1)];
+            for (int i = 0; i < MatrixOne.GetLength(0); i++)
+            {
+                for (int j = 0; j < MatrixTwo.GetLength(1); j++)
+                {
+                    SummMatrix[i, j] = MatrixOne[i, j] + MatrixTwo[i, j];
+                }
+            }
+            if (_returnMatrix)
+                ReturnMatrix(SummMatrix);
+
+        }
+        private int[,] ReturnMatrix(int[,] SummMatrix)
+        {
+            return SummMatrix;
         }
     }
 }

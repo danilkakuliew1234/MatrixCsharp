@@ -43,5 +43,20 @@ namespace GIT
             }
             return SummMatrix;
         }
+        public int[,] MultiplyMatrix(int[,] MatrixOne, int[,] MatrixTwo)
+        {
+            int[,] MultiplyMatrix = new int[MatrixOne.GetLength(0), MatrixTwo.GetLength(1)];
+            for(int i = 0; i < MatrixOne.GetLength(0); i++)
+            {
+                for(int j = 0; j < MatrixOne.GetLength(1); j++)
+                {
+                    for(int k = 0; k < MatrixOne.GetLength(0); k++)
+                    {
+                        MultiplyMatrix[i, j] = MatrixOne[i, k] * MatrixTwo[k, j];
+                    }
+                }
+            }
+            return MultiplyMatrix;
+        }
     }
 }

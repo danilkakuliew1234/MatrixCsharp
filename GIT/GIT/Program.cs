@@ -20,6 +20,17 @@ namespace GIT
             Console.WriteLine();
             int[,] summ = matrix.SummMatrix(MatrixOne, MatrixTwo);
             matrix.DrawMatrix(summ);
+
+            DataBase dataBase = new DataBase();
+            try
+            {
+                dataBase.ConnectDataBase("sql2371754", "bV9!vX4%", "3306", "sql2.freesqldatabase.com", "code");
+                Console.WriteLine("Connection opened");
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
         }
     }
 }

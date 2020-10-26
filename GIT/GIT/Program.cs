@@ -9,22 +9,12 @@ namespace GIT
         {
             Matrix matrix = new Matrix();
 
-            
-            int[,] MatrixOne = matrix.CreateMatrix(3, 3, -10, 10);
-            matrix.DrawMatrix(MatrixOne);
-            Console.WriteLine();
 
-            int[,] MatrixTwo = matrix.CreateMatrix(3, 3, -10, 10);
-            matrix.DrawMatrix(MatrixTwo);
-            Console.WriteLine("\nMultiply");
+            int[,] Matrix = matrix.CreateMatrix(3, 3, -10, 10);
+            matrix.DrawMatrix(Matrix);
 
-            int[,] MultiplyMatrix = matrix.MultiplyMatrix(MatrixOne, MatrixTwo);
-            matrix.DrawMatrix(MultiplyMatrix);
-            Console.WriteLine("\nTake Away");
-
-            int[,] TakeAway = matrix.TakeAwayMatrix(MatrixOne, MatrixTwo);
-            matrix.DrawMatrix(TakeAway);
-            Console.WriteLine();
+            Console.WriteLine("\nTransposition matrix");
+            matrix.DrawMatrix(matrix.TranspositionMatrix(Matrix));
 
         }
     }

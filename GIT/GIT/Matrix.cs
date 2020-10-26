@@ -71,5 +71,17 @@ namespace GIT
             }
             return TakeAway;
         }
+        public int[,] TranspositionMatrix(int[,] Matrix)
+        {
+            int[,] MatrixTranspostion = new int[Matrix.GetLength(0), Matrix.GetLength(1)];
+            for(int i = 0; i < Matrix.GetLength(0); i++)
+            {
+                for (int j = 0; j < Matrix.GetLength(1); j++) 
+                {
+                    MatrixTranspostion[i, j] = Matrix[j, i];
+                }
+            }
+            return MatrixTranspostion;
+        }
     }
 }

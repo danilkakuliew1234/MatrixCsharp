@@ -26,7 +26,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Admin\\GITStaging\\GIT\\Matrix\\Matrix.csproj": {
+                "projectPath": "C:\\Users\\Admin\\GITStaging\\GIT\\Matrix\\Matrix.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -60,6 +64,16 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\Admin\\GITStaging\\GIT\\Matrix\\Matrix.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\GITStaging\\GIT\\Matrix\\Matrix.csproj",
+        "projectName": "Matrix",
+        "projectPath": "C:\\Users\\Admin\\GITStaging\\GIT\\Matrix\\Matrix.csproj"
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }

@@ -1556,6 +1556,15 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "Matrix/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Matrix.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Matrix.dll": {}
+        }
       }
     }
   },
@@ -5592,10 +5601,16 @@
         "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "Matrix/1.0.0": {
+      "type": "project",
+      "path": "../Matrix/Matrix.csproj",
+      "msbuildProject": "../Matrix/Matrix.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Matrix >= 1.0.0",
       "MySql.Data >= 8.0.22"
     ]
   },
@@ -5624,7 +5639,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Admin\\GITStaging\\GIT\\Matrix\\Matrix.csproj": {
+              "projectPath": "C:\\Users\\Admin\\GITStaging\\GIT\\Matrix\\Matrix.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

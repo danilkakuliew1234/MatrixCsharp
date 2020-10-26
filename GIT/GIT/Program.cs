@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Matrix;
+using System;
 using System.Runtime.InteropServices;
+using Matrix;
 
 namespace GIT
 {
@@ -7,14 +9,7 @@ namespace GIT
     {
         static void Main(string[] args)
         {
-            Matrix matrix = new Matrix();
-
-
-            int[,] Matrix = matrix.CreateMatrix(3, 2, -10, 10);
-            matrix.DrawMatrix(Matrix);
-
-            Console.WriteLine("\nTransposition matrix");
-            matrix.DrawMatrix(matrix.TranspositionMatrix(Matrix));
+            
 
         }
     }

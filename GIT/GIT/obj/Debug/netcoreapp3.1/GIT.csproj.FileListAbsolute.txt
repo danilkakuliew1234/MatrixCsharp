@@ -1,0 +1,13 @@
+C:\Users\Admin\GITStaging\GIT\GIT\bin\Debug\netcoreapp3.1\GIT.exe
+C:\Users\Admin\GITStaging\GIT\GIT\bin\Debug\netcoreapp3.1\GIT.deps.json
+C:\Users\Admin\GITStaging\GIT\GIT\bin\Debug\netcoreapp3.1\GIT.runtimeconfig.json
+C:\Users\Admin\GITStaging\GIT\GIT\bin\Debug\netcoreapp3.1\GIT.runtimeconfig.dev.json
+C:\Users\Admin\GITStaging\GIT\GIT\bin\Debug\netcoreapp3.1\GIT.dll
+C:\Users\Admin\GITStaging\GIT\GIT\bin\Debug\netcoreapp3.1\GIT.pdb
+C:\Users\Admin\GITStaging\GIT\GIT\obj\Debug\netcoreapp3.1\GIT.csprojAssemblyReference.cache
+C:\Users\Admin\GITStaging\GIT\GIT\obj\Debug\netcoreapp3.1\GIT.AssemblyInfoInputs.cache
+C:\Users\Admin\GITStaging\GIT\GIT\obj\Debug\netcoreapp3.1\GIT.AssemblyInfo.cs
+C:\Users\Admin\GITStaging\GIT\GIT\obj\Debug\netcoreapp3.1\GIT.csproj.CoreCompileInputs.cache
+C:\Users\Admin\GITStaging\GIT\GIT\obj\Debug\netcoreapp3.1\GIT.dll
+C:\Users\Admin\GITStaging\GIT\GIT\obj\Debug\netcoreapp3.1\GIT.pdb
+C:\Users\Admin\GITStaging\GIT\GIT\obj\Debug\netcoreapp3.1\GIT.genruntimeconfig.cache

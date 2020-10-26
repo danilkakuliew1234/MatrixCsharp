@@ -20,7 +20,7 @@ namespace GIT
             }
             return Matrix;
         }
-        public void DrawMatrix(int[,] Matrix)
+        public void DrawMatrix(int[,] Matrix, int MatrixNumber = 0)
         {
             for (int i = 0; i < Matrix.GetLength(0); i++)
             {
@@ -31,7 +31,7 @@ namespace GIT
                 Console.WriteLine();
             }
         }
-        public void SummMatrix(int[,] MatrixOne, int[,] MatrixTwo, bool _returnMatrix = false)
+        public int[,] SummMatrix(int[,] MatrixOne, int[,] MatrixTwo)
         {
             int[,] SummMatrix = new int[MatrixOne.GetLength(0), MatrixTwo.GetLength(1)];
             for (int i = 0; i < MatrixOne.GetLength(0); i++)
@@ -41,12 +41,6 @@ namespace GIT
                     SummMatrix[i, j] = MatrixOne[i, j] + MatrixTwo[i, j];
                 }
             }
-            if (_returnMatrix)
-                ReturnMatrix(SummMatrix);
-
-        }
-        private int[,] ReturnMatrix(int[,] SummMatrix)
-        {
             return SummMatrix;
         }
     }

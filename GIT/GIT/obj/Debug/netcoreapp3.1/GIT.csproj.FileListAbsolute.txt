@@ -34,3 +34,5 @@ C:\Users\Admin\GITStaging\GIT\GIT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netst
 C:\Users\Admin\GITStaging\GIT\GIT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\Admin\GITStaging\GIT\GIT\obj\Debug\netcoreapp3.1\GIT.csproj.CoreCompileInputs.cache
 C:\Users\Admin\GITStaging\GIT\GIT\obj\Debug\netcoreapp3.1\GIT.csproj.CopyComplete
+C:\Users\Admin\GITStaging\GIT\GIT\bin\Debug\netcoreapp3.1\Matrix.dll
+C:\Users\Admin\GITStaging\GIT\GIT\bin\Debug\netcoreapp3.1\Matrix.pdb

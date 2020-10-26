@@ -73,7 +73,7 @@ namespace GIT
         }
         public int[,] TranspositionMatrix(int[,] Matrix)
         {
-            int[,] MatrixTranspostion = new int[Matrix.GetLength(0), Matrix.GetLength(1)];
+            int[,] MatrixTranspostion = new int[Matrix.GetLength(1), Matrix.GetLength(0)];
             for(int i = 0; i < Matrix.GetLength(0); i++)
             {
                 for (int j = 0; j < Matrix.GetLength(1); j++) 

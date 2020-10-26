@@ -10,7 +10,7 @@ namespace GIT
             Matrix matrix = new Matrix();
 
 
-            int[,] Matrix = matrix.CreateMatrix(3, 3, -10, 10);
+            int[,] Matrix = matrix.CreateMatrix(3, 2, -10, 10);
             matrix.DrawMatrix(Matrix);
 
             Console.WriteLine("\nTransposition matrix");

@@ -58,5 +58,18 @@ namespace GIT
             }
             return MultiplyMatrix;
         }
+        public int[,] TakeAwayMatrix(int[,] MatrixOne, int[,] MatrixTwo)
+        {
+            int[,] TakeAway = new int[MatrixOne.GetLength(0), MatrixOne.GetLength(1)];
+
+            for(int i = 0; i < MatrixOne.GetLength(0); i++)
+            {
+                for(int j = 0; j < MatrixOne.GetLength(1); j++)
+                {
+                    TakeAway[i, j] = MatrixOne[i, j] - MatrixTwo[i, j];
+                }
+            }
+            return TakeAway;
+        }
     }
 }

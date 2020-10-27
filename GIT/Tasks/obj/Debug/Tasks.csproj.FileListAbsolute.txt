@@ -1,0 +1,6 @@
+C:\Users\Admin\GITStaging\GIT\Tasks\bin\Debug\Tasks.dll
+C:\Users\Admin\GITStaging\GIT\Tasks\bin\Debug\Tasks.pdb
+C:\Users\Admin\GITStaging\GIT\Tasks\obj\Debug\Tasks.csprojAssemblyReference.cache
+C:\Users\Admin\GITStaging\GIT\Tasks\obj\Debug\Tasks.csproj.CoreCompileInputs.cache
+C:\Users\Admin\GITStaging\GIT\Tasks\obj\Debug\Tasks.dll
+C:\Users\Admin\GITStaging\GIT\Tasks\obj\Debug\Tasks.pdb

@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Matrix\Matrix.csproj" />
+    <ProjectReference Include="..\Tasks\Tasks.csproj" />
   </ItemGroup>
 
 </Project>

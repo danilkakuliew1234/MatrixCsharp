@@ -2,6 +2,7 @@
 using System;
 using System.Runtime.InteropServices;
 using Matrix;
+using Tasks;
 
 namespace GIT
 {
@@ -9,8 +10,7 @@ namespace GIT
     {
         static void Main(string[] args)
         {
-            int[,] arrayOne = Matrix.Matrix.CreateMatrix(3, 3, -10, 10);
-            Matrix.Matrix.DrawMatrix(arrayOne);
+            Console.WriteLine(Tasks.Tasks.task1(45));
         }
     }
 }

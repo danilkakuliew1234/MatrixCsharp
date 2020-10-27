@@ -36,3 +36,5 @@ C:\Users\Admin\GITStaging\GIT\GIT\obj\Debug\netcoreapp3.1\GIT.csproj.CoreCompile
 C:\Users\Admin\GITStaging\GIT\GIT\obj\Debug\netcoreapp3.1\GIT.csproj.CopyComplete
 C:\Users\Admin\GITStaging\GIT\GIT\bin\Debug\netcoreapp3.1\Matrix.dll
 C:\Users\Admin\GITStaging\GIT\GIT\bin\Debug\netcoreapp3.1\Matrix.pdb
+C:\Users\Admin\GITStaging\GIT\GIT\bin\Debug\netcoreapp3.1\Tasks.dll
+C:\Users\Admin\GITStaging\GIT\GIT\bin\Debug\netcoreapp3.1\Tasks.pdb

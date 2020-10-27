@@ -25,20 +25,11 @@ namespace GIT
             do
             {
                 lasterror = answer;
-                answer = 1 / (float)(Math.Pow(i, 2) * Math.Pow(_exp, degree));
+                answer = 1 / (float)(Math.Pow(i, 2) * Math.Pow(_exp, degree)) * z;
                 summ += answer;
                 degree++;
             } while (Math.Abs(lasterror - answer) > 0.001);
 
-            return summ;
-        }
-        public static int factorial(int iterator)
-        {
-            int summ = 1;
-            for(int i = 1; i <= iterator; i++)
-            {
-                summ *= i;
-            }
             return summ;
         }
     }

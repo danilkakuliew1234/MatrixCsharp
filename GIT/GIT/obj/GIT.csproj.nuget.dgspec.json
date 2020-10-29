@@ -29,6 +29,9 @@
             "projectReferences": {
               "C:\\Users\\Admin\\GITStaging\\GIT\\Matrix\\Matrix.csproj": {
                 "projectPath": "C:\\Users\\Admin\\GITStaging\\GIT\\Matrix\\Matrix.csproj"
+              },
+              "C:\\Users\\Admin\\GITStaging\\GIT\\Tasks\\Tasks.csproj": {
+                "projectPath": "C:\\Users\\Admin\\GITStaging\\GIT\\Tasks\\Tasks.csproj"
               }
             }
           }
@@ -71,6 +74,16 @@
         "projectUniqueName": "C:\\Users\\Admin\\GITStaging\\GIT\\Matrix\\Matrix.csproj",
         "projectName": "Matrix",
         "projectPath": "C:\\Users\\Admin\\GITStaging\\GIT\\Matrix\\Matrix.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Admin\\GITStaging\\GIT\\Tasks\\Tasks.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\GITStaging\\GIT\\Tasks\\Tasks.csproj",
+        "projectName": "Tasks",
+        "projectPath": "C:\\Users\\Admin\\GITStaging\\GIT\\Tasks\\Tasks.csproj"
       },
       "frameworks": {
         "net472": {}
